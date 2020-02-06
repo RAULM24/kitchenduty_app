@@ -1,0 +1,48 @@
+.backdrop {
+    z-index: 2000;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 50;
+}
+
+.modal {
+    box-sizing: border-box;
+    text-align: center;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 5px;
+    min-width: 400px;
+    width: 400px;
+    max-width: 400px;
+    min-height: 20px;
+    padding: 20px;
+    padding-bottom: 35px;
+    margin-left: calc(50% - 200px);
+    top: calc(50% - 200px);
+    -webkit-box-shadow: var(--boxShadow);
+    -moz-box-shadow: var(--boxShadow);
+    box-shadow: var(--boxShadow);
+}
+
+.modal .title {
+    margin-bottom: 12px;
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    color: var(--primaryColor);
+}
+
+.modal .subtitle{
+    color: var(--darkGray);
+    margin-bottom: 30px;
+    font-size: 18px;
+    text-align: center;
+    display: block;
+  }
